@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="En-têtesPrécompilés">
+      <UniqueIdentifier>{96905b04-9907-42b3-aac0-4d320c6f9b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dlls">
+      <UniqueIdentifier>{25079223-6d81-479c-b54b-df13047e3b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files">
+      <UniqueIdentifier>{92d226c4-e9b4-4e1c-9dca-2386fb7be315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Animations">
+      <UniqueIdentifier>{9ed0a21d-58fc-4567-a92e-94cf3743e0ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Actors">
+      <UniqueIdentifier>{5104cdd0-e8d2-4a39-9a19-23826f20dfe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Scenes">
+      <UniqueIdentifier>{d00e77ba-03a6-474a-93b9-be3496787ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\PubSub">
+      <UniqueIdentifier>{32a34a7b-3389-413a-bb6c-8f9a6ab2215f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\FichiersDeBase">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Files\FichiersDeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Files\FichiersDeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>En-têtesPrécompilés</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentManager.h">
+      <Filter>Files\FichiersDeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs.h">
+      <Filter>Files\FichiersDeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearAnimation.h">
+      <Filter>Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGame.h">
+      <Filter>Files\FichiersDeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ICollidable.h">
+      <Filter>Files\FichiersDeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Files\PubSub</Filter>
+    </ClInclude>
+    <ClInclude Include="Publisher.h">
+      <Filter>Files\PubSub</Filter>
+    </ClInclude>
+    <ClInclude Include="Subscriber.h">
+      <Filter>Files\PubSub</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationFrame.h">
+      <Filter>Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelBase.h">
+      <Filter>Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Level01.h">
+      <Filter>Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInfo.h">
+      <Filter>Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneResult.h">
+      <Filter>Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="scenetype.h">
+      <Filter>Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameActor.h">
+      <Filter>Files\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCharacter.h">
+      <Filter>Files\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterType.h">
+      <Filter>Files\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Files\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterState.h">
+      <Filter>Files\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="IUpdatable.h">
+      <Filter>Files\FichiersDeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Level02.h">
+      <Filter>Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Files\Actors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>En-têtesPrécompilés</Filter>
+    </ClCompile>
+    <ClCompile Include="Publisher.cpp">
+      <Filter>Files\PubSub</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearAnimation.cpp">
+      <Filter>Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationFrame.cpp">
+      <Filter>Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Level01.cpp">
+      <Filter>Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelBase.cpp">
+      <Filter>Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameActor.cpp">
+      <Filter>Files\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCharacter.cpp">
+      <Filter>Files\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Files\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGame.cpp">
+      <Filter>Files\FichiersDeBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ContentManager.cpp">
+      <Filter>Files\FichiersDeBase</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Files\FichiersDeBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs.cpp">
+      <Filter>Files\FichiersDeBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Level02.cpp">
+      <Filter>Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Files\Actors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\extern\SFML\bin\openal32.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-audio-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-audio-d-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-graphics-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-graphics-d-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-network-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-network-d-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-system-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-system-d-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-window-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-window-d-2.dll" />
+  </ItemGroup>
+</Project>
